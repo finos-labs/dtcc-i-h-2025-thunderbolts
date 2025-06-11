@@ -23,7 +23,7 @@ const AboutApp = () => {
       title: "What This App Does",
       icon: <MdInfoOutline size={28} />,
       content:
-        "This application analyzes uploaded compliance-related documents and generates a detailed compliance report tailored to Indian NGO regulations like FCRA, Income Tax, and CSR."
+        "This application analyzes uploaded compliance-related documents and generates a detailed compliance report tailored to NGO regulations like FCRA, Income Tax, and CSR."
     },
     {
       title: "Smart AI-Powered Insights",
@@ -41,7 +41,7 @@ const AboutApp = () => {
       title: "Continuous Updates",
       icon: <MdAutoFixHigh size={28} />,
       content:
-        "The tool is regularly updated to match the latest legal frameworks and regulatory deadlines applicable to Indian NGOs."
+        "The tool is regularly updated to match the latest legal frameworks and regulatory deadlines applicable to NGOs."
     }
   ];
 
@@ -69,7 +69,7 @@ const AboutApp = () => {
         color="text.secondary"
         sx={{ textAlign: 'center', mb: 4, maxWidth: 800, mx: 'auto' }}
       >
-        A compliance assistant for Indian NGOs — making legal reviews simple, fast, and accessible. Understand where your organization stands and what you can do to improve.
+        A compliance assistant for NGOs — making legal reviews simple, fast, and accessible. Understand where your organization stands and what you can do to improve.
       </Typography>
 
       <Stack spacing={4}>
